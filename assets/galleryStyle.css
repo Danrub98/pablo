@@ -1,0 +1,43 @@
+body{
+    background-color: #E7E6E1;
+}
+
+hr{
+    margin-top: 3%;
+    width: 60%;
+    border-top: 2px dotted;
+    border-bottom: none;
+    text-align: center;
+    color: #082032;
+}
+
+.galleryMain{
+    
+    background-image: url('./images/wallpaper.jpg');
+    background-color: #cccccc;
+    padding-bottom: 20%;
+    color: black;
+   
+}
+
+.galleryText{
+    padding-top: 15%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;}
+
+.carousel{
+    padding-top: 2%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 25%;
+    padding-bottom: 5%;
+}
+
+@media (max-width: 900px) { 
+    .carousel{
+        width: 75%;
+        margin-left: 12.5%;
+    } 
+
+}
